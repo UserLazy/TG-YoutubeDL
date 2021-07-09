@@ -1,4 +1,4 @@
-# Youtube Bot Downloader Pake Aja Kalo Mau
+# Youtube Bot Downloader 
 ## Prerequisite
     ffmpeg
   
@@ -13,7 +13,7 @@
     - python3 -m bot
     
 ## Thanks ._.)
-* [OnlyFaris](https://telegram.dog/Titit_Kuda) for his [Keqing Wangy ](https://telegram.dog/KeqingRobot)
-* [Chating Group ](https://telegram.dog/AnimeChating)
+* [UserLazy](https://github.com/UserLazy) 
+* [UserLazy Projects](https://t.me/UserLazyXBot)
 
 ## :)

@@ -1,4 +1,4 @@
 TgCrypto
-https://github.com/UserLazy/pyrogram.zip
+https://github.com/UserLazy/pyrogram
 git+https://github.com/ytdl-org/youtube-dl
 

@@ -1,4 +1,11 @@
-
+pyrogram
 TgCrypto
-https://github.com/CW4RR10R/archives/blob/master/pyrogram-asyncio.zip
 git+https://github.com/ytdl-org/youtube-dl
+pyaes==1.6.1
+pysocks==1.7.1
+async_lru==1.0.1
+async_generator==1.10
+datetime
+ansicio
+os
+requests

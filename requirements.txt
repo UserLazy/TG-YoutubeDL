@@ -1,3 +1,3 @@
 TgCrypto
-https://github.com/UserLazy/TG-YoutubeDL/blob/main/pyrogram.zip
+https://github.com/UserLazy/TG-YoutubeDL/bot/pyrogram.zip
 git+https://github.com/ytdl-org/youtube-dl

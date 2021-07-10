@@ -5,6 +5,9 @@
 [<img align="left" alt="Ihsan | Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />][telegram]
 <br />
 
+[instagram]: https://instagram.com/ihsan_rxymx
+[telegram]: https://t.me/RxyMX
+
 ## Prerequisite
     ffmpeg
   

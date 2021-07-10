@@ -1,13 +1,13 @@
 {
-  "name": "Keqing Youtube Downloader",
+  "name": "Telegram Youtube Downloader",
   "description": "A Telegram Bot To Download Youtube Files ",
-  "logo": "https://telegra.ph/file/59e45383dd3eb06211ee8.jpg",
+  "logo": "https://telegra.ph/file/3e422697bc182c421f4ca.jpg",
   "keywords": [
     "Youtube","YoutubeDownloader" 
   ],
-  "repository": "https://github.com/OnlyFaris/KeqingYoutube",
-  "success_url": "https://t.me/KeqingRobot",
-  "website": "https://github.com/OnlyFaris",
+  "repository": "https://github.com/UserLazy/TG-YoutubeDL",
+  "success_url": "https://t.me/YTDownTGbot",
+  "website": "https://github.com/UserLazy",
   "env": {
         "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
         "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},

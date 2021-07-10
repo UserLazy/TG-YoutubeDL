@@ -1,5 +1,9 @@
 from __future__ import unicode_literals
-from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import Client
+from pyrogram import filters
+from pyrogram import StopPropagation
+from pyrogram.types import InlineKeyboardButton
+from pyrogram.types import InlineKeyboardMarkup
 import youtube_dl
 from utils.util import humanbytes
 import asyncio

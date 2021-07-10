@@ -1,7 +1,11 @@
-from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import Client
+from pyrogram import filters
+from pyrogram import StopPropagation
+from pyrogram import InlineKeyboardButton
+from pyrogram import InlineKeyboardMarkup
 
 
-@Client.on_message(Filters.command(["start"]), group=-2)
+@Client.on_message(filters.command(["start"]), group=-2)
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([

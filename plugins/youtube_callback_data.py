@@ -4,7 +4,7 @@ import os
 from pyrogram import Client
 from pyrogram.types import InlineKeyboardButton
 from pyrogram.types import InlineKeyboardMarkup
-from pyrogram.types import ContinuePropagation
+from pyrogram import ContinuePropagation
 from pyrogram.types import InputMediaDocument
 from pyrogram.types import InputMediaVideo
 from pyrogram.types import InputMediaAudio

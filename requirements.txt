@@ -1,3 +1,8 @@
-TgCrypto
-https://github.com/UserLazy/TG-YoutubeDL/bot/pyrogram-asyncio.zip
+pyrogram
+tgcrypto
+aiohttp
+python-dotenv
+motor
+aiofiles
+dnspython
 git+https://github.com/ytdl-org/youtube-dl

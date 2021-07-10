@@ -1,5 +1,8 @@
 from datetime import datetime, timedelta
-from pyrogram import Client, Filters, InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram import Client
+from pyrogram import filters
+from pyrogram import InlineKeyboardMarkup
+from pyrogram import InlineKeyboardButton
 from bot import user_time
 from config import youtube_next_fetch
 from helper.ytdlfunc import extractYt, create_buttons
@@ -7,7 +10,7 @@ from helper.ytdlfunc import extractYt, create_buttons
 ytregex = r"^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$"
 
 
-@Client.on_message(Filters.regex(ytregex))
+@Client.on_message(filters.regex(ytregex))
 async def ytdl(_, message):
     userLastDownloadTime = user_time.get(message.chat.id)
     try:

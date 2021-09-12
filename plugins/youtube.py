@@ -15,7 +15,9 @@ async def ytdl(_, message):
     userLastDownloadTime = user_time.get(message.chat.id)
     try:
         if userLastDownloadTime > datetime.now():
-            wait_time = round((userLastDownloadTime - datetime.now()).total_seconds() / 60, 2)
+            wait_time = round(
+                (userLastDownloadTime - datetime.now()).total_seconds() / 60, 2
+            )
             await message.reply_text(f"`Wait {wait_time} Minutes before next Request`")
             return
     except:
@@ -27,11 +29,12 @@ async def ytdl(_, message):
         title, thumbnail_url, formats = extractYt(url)
 
         now = datetime.now()
-        user_time[message.chat.id] = now + \
-                                     timedelta(minutes=youtube_next_fetch)
+        user_time[message.chat.id] = now + timedelta(minutes=youtube_next_fetch)
 
     except Exception:
-        await message.reply_text("`Failed To Fetch Youtube Data... Error Vro \nPossible Youtube Blocked server ip \n#error`")
+        await message.reply_text(
+            "`Failed To Fetch Youtube Data... Error Vro \nPossible Youtube Blocked server ip \n#error`"
+        )
         return
     buttons = InlineKeyboardMarkup(list(create_buttons(formats)))
     sentm = await message.reply_text("Processing Youtube Url 🔎. . .")
@@ -43,8 +46,8 @@ async def ytdl(_, message):
     except Exception as e:
         try:
             thumbnail_url = "https://telegra.ph/file/3e422697bc182c421f4ca.jpg"
-            await message.reply_photo(thumbnail_url, caption=title, reply_markup=buttons)
+            await message.reply_photo(
+                thumbnail_url, caption=title, reply_markup=buttons
+            )
         except Exception as e:
-            await sentm.edit(
-            f"<code>{e}</code> #Error")
-
+            await sentm.edit(f"<code>{e}</code> #Error")
